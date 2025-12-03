@@ -1,0 +1,55 @@
+
+=== ANÁLISIS DE EFICACIA DEL MODELO RANDOM FOREST ===
+Fecha: 2025-12-03
+
+MÉTRICAS GLOBALES
+==================================================
+Accuracy (Exactitud):        0.6859
+Precision (Ponderado):       0.6929
+Recall (Sensibilidad Pond.): 0.6859
+F1-Score (Ponderado):        0.6794
+
+MATRIZ DE CONFUSIÓN
+==================================================
+Clases: DESOCUPADO, OCUPADO
+
+[[ 8710  7305]
+ [ 3320 14494]]
+
+ANÁLISIS DETALLADO POR CLASE
+==================================================
+
+Clase: DESOCUPADO
+  Verdaderos Positivos (TP):  8710
+  Falsos Positivos (FP):      3320
+  Falsos Negativos (FN):      7305
+  Verdaderos Negativos (TN):  14494
+
+Clase: OCUPADO
+  Verdaderos Positivos (TP):  14494
+  Falsos Positivos (FP):      7305
+  Falsos Negativos (FN):      3320
+  Verdaderos Negativos (TN):  8710
+
+
+REPORTE DE CLASIFICACIÓN DETALLADO
+==================================================
+              precision    recall  f1-score   support
+
+  DESOCUPADO       0.72      0.54      0.62     16015
+     OCUPADO       0.66      0.81      0.73     17814
+
+    accuracy                           0.69     33829
+   macro avg       0.69      0.68      0.68     33829
+weighted avg       0.69      0.69      0.68     33829
+
+
+DISTRIBUCIÓN DE CLASES EN DATOS
+==================================================
+OCUPADO: 52.66%
+DESOCUPADO: 47.34%
+
+DISTRIBUCIÓN DE PREDICCIONES
+==================================================
+OCUPADO: 64.44%
+DESOCUPADO: 35.56%
