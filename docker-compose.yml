@@ -1,0 +1,16 @@
+services:
+  spark:
+    build: .
+    container_name: spark-etl
+    environment:
+      - PYSPARK_PYTHON=python3
+    command: ["spark-submit", "main.py"]
+
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app
+
+    volumes:
+      - ./data:/opt/spark-data

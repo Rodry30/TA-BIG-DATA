@@ -1,0 +1,36 @@
+INTERPRETACIÓN DE CLUSTERS (K-Means)
+====================================
+
+Cluster 0:
+  Perfil: edad ALTO (+15.0%), nivel_educativo_cod BAJO (-31.8%), Concentracion BAJO (-36.9%), Socializar BAJO (-32.5%), Experiencia ALTO (+27.9%)
+  Detalles:
+    - edad: 50.23 (Global: 43.69)
+    - nivel_educativo_cod: 4.93 (Global: 7.23)
+    - Lengua: 9.24 (Global: 9.25)
+    - Etnia: 6.68 (Global: 6.35)
+    - Concentracion: 1.26 (Global: 1.99)
+    - Socializar: 1.34 (Global: 1.99)
+    - Experiencia: 1.41 (Global: 1.10)
+    - Movilidad: 1.79 (Global: 1.99)
+Cluster 1:
+  Perfil: nivel_educativo_cod ALTO (+36.9%)
+  Detalles:
+    - edad: 42.11 (Global: 43.69)
+    - nivel_educativo_cod: 9.90 (Global: 7.23)
+    - Lengua: 9.96 (Global: 9.25)
+    - Etnia: 6.75 (Global: 6.35)
+    - Concentracion: 2.00 (Global: 1.99)
+    - Socializar: 2.00 (Global: 1.99)
+    - Experiencia: 1.05 (Global: 1.10)
+    - Movilidad: 1.99 (Global: 1.99)
+Cluster 2:
+  Perfil: nivel_educativo_cod BAJO (-25.7%)
+  Detalles:
+    - edad: 44.69 (Global: 43.69)
+    - nivel_educativo_cod: 5.37 (Global: 7.23)
+    - Lengua: 8.75 (Global: 9.25)
+    - Etnia: 6.06 (Global: 6.35)
+    - Concentracion: 2.00 (Global: 1.99)
+    - Socializar: 2.00 (Global: 1.99)
+    - Experiencia: 1.13 (Global: 1.10)
+    - Movilidad: 1.98 (Global: 1.99)

@@ -1,0 +1,16 @@
+# Auto-detect text files and normalize line endings in the repository
+* text=auto
+
+# Explicitly handle common text file types
+*.py    text
+*.csv   text
+*.txt   text
+*.md    text
+
+# Images and other binaries
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+
+# End of file

@@ -1,0 +1,10 @@
+PORCENTAJE DE NULOS POR VARIABLE SELECCIONADA
+=============================================
+edad: 0.71%
+nivel_educativo_cod: 28.74%
+Lengua: 28.74%
+Etnia: 28.74%
+Concentracion: 28.74%
+Socializar: 28.74%
+Experiencia: 28.74%
+Movilidad: 28.74%
